@@ -19,15 +19,15 @@ if ( userInput === "no") {
 */
 
 let makeABurrito;
-makeABurrito = function(beansVariable){
-  let beansResponse;
-  addBeans();
-  beansResponse = "You ordered " + beansVariable + " beans. Good choice!";
+makeABurrito = function(burritoVariable, onionsVariable, cilantroVariable){
+  let burritoResponse;
+  burritoResponse = "You ordered " + beansVariable + " beans. Good choice!";
   $("#response").html(beansResponse);
-  // etc.
-
-}
+};
 
 let blackBeans;
 blackBeans = "black";
 makeABurrito(blackBeans);
+let whiteonion;
+whiteonion = "no opinion';
+makeABurrito(whiteonion);
