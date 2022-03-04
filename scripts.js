@@ -55,6 +55,7 @@ arrayOfStrings = ["a", "b", "c"];
 $("#response").html(arrayOfStrings.length);
 */
 
+/*
 let myHabaneroSauceSquirts, myBurritoObject;
 // First, define and assign a variable for how 
 // spicy the burrito is.
@@ -79,3 +80,4 @@ $("#response").html("Your burrito has " +
   myBurritoObject.habaneroSauceSquirts +
   " squirts of habanero.");
 myBurritoObject.spiciness();
+*/
