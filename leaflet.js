@@ -17,6 +17,8 @@ bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library.").addTo(firstMap);
 waverlyPlace = L.latLng(40.7344954, -74.0035869);
 waverlyPlaceMarker = L.marker(waverlyPlace).bindPopup("I added another point, fools.").addTo(firstMap);
+
+
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "EFBB24",
@@ -25,6 +27,12 @@ circle = L.circle(washingtonSquarePark, {radius: 100,
                                          fillOpacity: 0.20}
           ).addTo(firstMap);
 circle = L.circle(bobstLibrary,          {radius: 100,
+                                          color: "EFBB24",
+                                          fillColor: "EFBB24",
+                                          opacity: 0.9,
+                                          fillOpacity: 0.20}
+          ).addTo(firstMap);
+circle = L.circle(waverlyPlace,          {radius: 100,
                                           color: "EFBB24",
                                           fillColor: "EFBB24",
                                           opacity: 0.9,
