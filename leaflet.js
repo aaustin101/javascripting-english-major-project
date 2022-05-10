@@ -10,9 +10,9 @@ tileLayer.addTo(firstMap);
 firstMap.setView([40.730833, -73.9975], 16);
 
 
-let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker, waverlyPlace, waverlyPlaceMarker;
-washingtonSquarePark = L.latLng(40.730833, -73.9975);
-washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
+let Dashop, DashopMarker, bobstLibrary, bobstLibraryMarker, waverlyPlace, waverlyPlaceMarker;
+Dashop = L.latLng(40.730833, -73.9975);
+DashopkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library.").addTo(firstMap);
 waverlyPlace = L.latLng(40.7344954, -74.0035869);
@@ -20,7 +20,7 @@ waverlyPlaceMarker = L.marker(waverlyPlace).bindPopup("I added another point, fo
 
 
 let circle;
-circle = L.circle(washingtonSquarePark, {radius: 100,
+circle = L.circle(Dashop, {radius: 100,
                                          color: "EFBB24",
                                          fillColor: "EFBB24",
                                          opacity: 0.9,
