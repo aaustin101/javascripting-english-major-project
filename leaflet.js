@@ -12,10 +12,10 @@ firstMap.setView([40.730833, -73.9975], 16);
 let dashop, dashopMarker, midtownComics, midtownComicsMarker, toyTokyo, toyTokyoMarker;
 dashop = L.latLng(40.7157897829261, -73.98838604482653);
 dashopMarker = L.marker(dashop).bindPopup("This is Dashop.").addTo(firstMap);
-midtownComics = L.latLng(40.729444, -73.997222);
-midtownComicsMarker = L.marker(midtownComics).bindPopup("This is Bobst Library.").addTo(firstMap);
-toyTokyo = L.latLng(40.73449, -74.00358);
-toyTokyoMarker = L.marker(toyTokyo).bindPopup("I added another point, fools.").addTo(firstMap);
+midtownComics = L.latLng(40.75485521728513, -73.98838604482653);
+midtownComicsMarker = L.marker(midtownComics).bindPopup("This is Midtown Comics.").addTo(firstMap);
+toyTokyo = L.latLng(40.72710231477772, -73.98901659424567);
+toyTokyoMarker = L.marker(toyTokyo).bindPopup("This is Toy Tokyo").addTo(firstMap);
 let circle;
 circle = L.circle(dashop, {radius: 100,
                                          color: "#ffccff",
