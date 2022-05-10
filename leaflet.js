@@ -10,7 +10,7 @@ tileLayer.addTo(firstMap);
 firstMap.setView([40.730833, -73.9975], 16);
 
 let dashop, dashopMarker, midtownComics, midtownComicsMarker, toyTokyo, toyTokyoMarker;
-dashop = L.latLng(40.730833, -73.9975);
+dashop = L.latLng(40.7157897829261, -73.98838604482653);
 dashopMarker = L.marker(dashop).bindPopup("This is Dashop.").addTo(firstMap);
 midtownComics = L.latLng(40.729444, -73.997222);
 midtownComicsMarker = L.marker(midtownComics).bindPopup("This is Bobst Library.").addTo(firstMap);
