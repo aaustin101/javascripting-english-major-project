@@ -11,8 +11,8 @@ firstMap.setView([40.730833, -73.9975], 16);
 
 
 let Dashop, DashopMarker, bobstLibrary, bobstLibraryMarker, waverlyPlace, waverlyPlaceMarker;
-Dashop = L.latLng(40.730833, -73.9975);
-DashopkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
+Dashop = L.latLng(40.7157897829261, -73.99739761742607);
+DashopkMarker = L.marker(washingtonSquarePark).bindPopup("This is Dashop.").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library.").addTo(firstMap);
 waverlyPlace = L.latLng(40.7344954, -74.0035869);
