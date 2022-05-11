@@ -7,7 +7,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
       maxZoom: 18
     });
 tileLayer.addTo(firstMap);
-firstMap.setView([40.730833, -73.9975], 16);
+firstMap.setView([40.75, -74], 12);
 
 let dashop, dashopMarker, midtownComics, midtownComicsMarker, toyTokyo, toyTokyoMarker;
 dashop = L.latLng(40.7157897829261, -73.98838604482653);
